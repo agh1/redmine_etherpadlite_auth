@@ -1,3 +1,6 @@
+require 'redmine'
+require_dependency 'redmine_etherpadlite_auth/hooks'
+
 Redmine::Plugin.register :redmine_etherpadlite_auth do
   name 'Redmine Etherpad-lite Authentication Plugin'
   author 'Andrew Hunt'
