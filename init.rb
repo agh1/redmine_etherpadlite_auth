@@ -1,8 +1,8 @@
 Redmine::Plugin.register :redmine_etherpadlite_auth do
-  name 'Redmine Etherpadlite Auth plugin'
-  author 'Author name'
-  description 'This is a plugin for Redmine'
+  name 'Redmine Etherpad-lite Authentication Plugin'
+  author 'Andrew Hunt'
+  description 'Authenticate with etherpad-lite when you log in to Redmine'
   version '0.0.1'
-  url 'http://example.com/path/to/plugin'
-  author_url 'http://example.com/about'
+  url 'https://github.com/agh1/redmine_etherpadlite_auth'
+  author_url 'https://aghstrategies.com'
 end
